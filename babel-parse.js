@@ -24,3 +24,19 @@ traverse(ast, {
     }
   }
 })
+
+/*
+//输出
+# FunctionDeclaration
+ - suzhe { constant: true, references: 0, violations: 0, kind: 'const' 
+}
+# BlockStatement
+ - func3 { constant: true, references: 0, violations: 0, kind: 'hoisted' }
+# FunctionDeclaration
+ - ssh { constant: true, references: 0, violations: 0, kind: 'const' } 
+# FunctionDeclaration
+ - guang { constant: true, references: 0, violations: 0, kind: 'const' 
+}
+ - func2 { constant: true, references: 0, violations: 0, kind: 'hoisted' }
+# Program
+ - func { constant: true, references: 0, violations: 0, kind: 'hoisted' } */
