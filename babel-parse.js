@@ -1,4 +1,4 @@
-//既然是转义工具，必然有自己转译的一套东西
+//既然是转译工具，必然有自己转译的一套东西
 const parser = require('@babel/parser');
 const traverse = require('@babel/traverse').default;
 const code = `
