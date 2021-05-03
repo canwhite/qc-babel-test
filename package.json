@@ -5,7 +5,8 @@
   "main": "/src/index.js",
   "scripts": {
     "babel": "babel src --out-dir lib --watch",
-    "test": "node ./lib/index.js"
+    "test": "node ./lib/index.js",
+    "parse":"node ./babel-parse.js"
   },
   "keywords": [],
   "author": "",
