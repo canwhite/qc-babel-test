@@ -18,6 +18,7 @@ const code = `
 const ast = parser.parse(code);
 
 traverse(ast, {
+  //visitor
   FunctionDeclaration (path) {
     if (path.get('id.name').node === 'func3') {
       console.log(path.scope.dump());

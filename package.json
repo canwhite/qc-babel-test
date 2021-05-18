@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "babel src --out-dir lib --watch",
     "test": "node ./lib/index.js",
-    "parse":"node ./babel-parse.js"
+    "parse": "node ./babel-parse.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.14.0",
+    "acorn": "^8.2.4",
     "add": "^2.0.6",
+    "source-map": "^0.7.3",
     "yarn": "^1.22.10"
   }
 }
